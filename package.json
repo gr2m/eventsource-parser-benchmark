@@ -1,0 +1,12 @@
+{
+  "name": "eventsource-parser-benchmark",
+  "private": true,
+  "type": "module",
+  "author": "Gregor Martynus",
+  "license": "ISC",
+  "dependencies": {
+    "eventsource-parser-3.0.0": "npm:eventsource-parser@3.0.0",
+    "eventsource-parser-3.0.1": "npm:eventsource-parser@3.0.1",
+    "tinybench": "^4.0.1"
+  }
+}
