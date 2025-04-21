@@ -8,7 +8,7 @@ if (!process.env.GOOGLE_API_KEY) {
   throw new Error("GOOGLE_API_KEY is not set");
 }
 
-const OUTPUT_PATH = "recorded/image-of-a-black-cat";
+const OUTPUT_PATH = "recorded/image-of-a-black-cat-chunks.txt";
 
 const response = await fetch(
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:streamGenerateContent?alt=sse",
