@@ -12,7 +12,7 @@ Based on this issue by [@wong2](https://github.com/wong2): [rexxars/eventsource-
 
 ## Benchmark
 
-`eventsource-parser@3.0.1` is roughly 100x faster than `eventsource-parser@3.0.0` and `ai-sdk-eventsource-parser` is roughly 10x faster than `eventsource-parser@3.0.1`.
+`eventsource-parser@3.0.1` is roughly 100x faster than `eventsource-parser@3.0.0` and `ai-sdk-eventsource-parser` is roughly 10x slower than `eventsource-parser@3.0.1`.
 
 ```
 $ node benchmark.js
